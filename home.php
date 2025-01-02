@@ -140,7 +140,7 @@
         </div>
     </div>
     <div class="text-center p-3 bg-dark text-white">
-        &copy; 2024 Quantum Technologies. All rights reserved.
+        &copy; 2025 Quantum Technologies. All rights reserved.
     </div>
 </footer>
 </html>
