@@ -1,0 +1,90 @@
+body {
+    background-color: #4d0202;
+    color: whitesmoke;
+}
+
+.nav {
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: navy;
+    color: white;
+    border-radius: 5px;
+}
+
+nav a i {
+    color: rgb(255, 51, 0);
+}
+
+nav a:hover i {
+    color: white;
+}
+
+.navbar-brand:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navbar-brand {
+    pointer-events: none;
+}
+
+h1 {
+    pointer-events: none;
+}
+
+.jumbotron {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+    background: #000;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+/* Call-to-Action Section */
+.bg-secondary {
+    background: #06014d !important;
+}
