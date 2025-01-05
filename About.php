@@ -31,9 +31,11 @@
             </div>
             <div class="col-md-9">
                 <h1>About Me</h1>
-                <p style="color: whitesmoke;">Hello! I'm Savage, an innovative developer, tech enthusiast, and lifelong learner. I have a passion for creating cutting-edge solutions and exploring new technologies. With a background in web development, graphics designing, and networking, I strive to deliver high-quality projects that exceed expectations.</p>
-                <p>My journey in the tech world started at a young age, and over the years, I have honed my skills through various projects and collaborations. I believe in continuous learning and staying updated with the latest trends in the industry.</p>
+                <p>Hello! I’m AUGUSTINE MKUPASI, a passionate Computer Science graduate with expertise in web development, software solutions, and technology services. I’m the founder of QuantumTechnologies, a versatile tech brand specializing in Maintenance, Graphics Designing, Cloud Computing, Software Development, and Installations.</p>
+                <p>My journey includes developing projects like e-commerce platforms,inventory management systems, and portfolio websites using technologies such as HTML, CSS, JavaScript, PHP, MySQL, API integration, AJAX, and Bootstrap.  </p>
+                <p>Beyond coding, I have a keen interest in teaching, troubleshooting technical issues, and empowering others through knowledge-sharing. </p>
                 <p>Feel free to explore my portfolio to see some of my latest work and achievements. If you have any questions or would like to collaborate, don't hesitate to contact me.</p>
+                </p>Let’s collaborate and build something impactful together!</p>
             </div>
         </div>
     </div>

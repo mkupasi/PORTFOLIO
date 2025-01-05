@@ -26,6 +26,9 @@
                     <a class="nav-link" href="portfolio.php"><i class="fas fa-briefcase"></i> Portfolio</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="FAQ.php"><i class="fas fa-question-circle"></i> FAQ</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="contacts.php"><i class="fas fa-envelope"></i> Contact</a>
                 </li>
             </ul>

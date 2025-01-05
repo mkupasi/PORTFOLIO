@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/PORTFOLIO/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -21,17 +21,20 @@
             <?php
             // Dynamic Project List
             $projects = [
-                ["title" => "Project Alpha", "image" => "orange.jpg", "description" => "Description of Project Alpha"],
-                ["title" => "Project Beta", "image" => "images.jpg", "description" => "Description of Project Beta"],
-                ["title" => "Project Gamma", "image" => "e-com.avif", "description" => "Description of Project Gamma"]
+            ["title" => "SOKO KUU APP", "image" => "orange.jpg", "description" => "An innovative platform offering seamless online shopping with a wide range of products, secure payments, and fast delivery services. Designed for user-friendly navigation across all devices"],
+            ["title" => "QUANTUM TECHNOLOGIES", "image" => "images.jpg", "description" => "A professional platform to showcase projects, skills, and achievements with a responsive design and interactive sections. Perfect for building a strong online presence"],
+            ["title" => "DUKA PRO APP", "image" => "e-com.avif", "description" => "A powerful tool for tracking and managing inventory with real-time updates, automated alerts, and detailed analytics. Streamlines operations for better efficiency."],
+            ["title" => "SOKO KUU APP", "image" => "orange.jpg", "description" => "An innovative platform offering seamless online shopping with a wide range of products, secure payments, and fast delivery services. Designed for user-friendly navigation across all devices"],
+            ["title" => "QUANTUM TECHNOLOGIES", "image" => "images.jpg", "description" => "A professional platform to showcase projects, skills, and achievements with a responsive design and interactive sections. Perfect for building a strong online presence"],
+            ["title" => "DUKA PRO APP", "image" => "e-com.avif", "description" => "A powerful tool for tracking and managing inventory with real-time updates, automated alerts, and detailed analytics. Streamlines operations for better efficiency."]
             ];
 
             foreach ($projects as $project) {
                 echo '
-                <div class="col-md-4">
+                <div class="col-md-4 ">
                     <div class="card shadow-sm h-100">
                         <img src="images/'.$project['image'].'" class="card-img-top" alt="'.$project['title'].'">
-                        <div class="card-body">
+                        <div class="card-body" style="color: whitesmoke;">
                             <h5 class="card-title">'.$project['title'].'</h5>
                             <p class="card-text">'.$project['description'].'</p>
                             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#projectModal" 
@@ -64,7 +67,7 @@
     <!-- Call to Action Section -->
     <section class="text-center bg-secondary text-white py-4">
         <h4>Have an idea in mind?</h4>
-        <a href="contact.php" class="btn btn-light mt-2">Let's Collaborate</a>
+        <a href="contacts.php" class="btn btn-light mt-2">Let's Collaborate</a>
     </section>
 
     <?php include 'footer.php'; ?>

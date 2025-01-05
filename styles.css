@@ -88,3 +88,13 @@ h1 {
 .bg-secondary {
     background: #06014d !important;
 }
+
+
+.card-title {
+    color: whitesmoke;
+
+}
+
+.card-text {
+    color: whitesmoke;
+}

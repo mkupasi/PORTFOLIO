@@ -1,5 +1,10 @@
 <?php ?>
-    <footer class="bg-light text-center text-lg-start">
+    <style>
+        .text-uppercase {
+            color: dark;
+        }
+    </style>
+    <footer class="bg-light text-center text-lg-start text-dark">
     <div class="container p-4">
         <div class="row">
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-left border-right">
@@ -27,6 +32,8 @@
                     <li><a href="about.php" class="text-dark">About</a></li>
                     <li><a href="portfolio.php" class="text-dark">Portfolio</a></li>
                     <li><a href="contacts.php" class="text-dark">Contact</a></li>
+                    <li><a href="FAQ.php" class="text-dark">Frequently Asked Questions</a></li>
+                    <li><a href="terms&policies.php" class="text-dark">Terms&Policies</a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-left">
@@ -42,4 +49,3 @@
         &copy; 2024 Quantum Technologies. All rights reserved.
     </div>
 </footer>
-
